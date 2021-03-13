@@ -6,10 +6,10 @@ namespace Hello
     {
         static void Main(string[] args)
         {
-            string name = "山田";
-            Console.WriteLine("{0}さん、こんにちは", name);
-            name = "佐藤";
-            Console.WriteLine("{0}さん、こんにちは", name);
+            int height = 8;
+            int width = 5;
+            int area = height * width;
+            Console.WriteLine("面積: {0}㎡", area);
         }
     }
 }
