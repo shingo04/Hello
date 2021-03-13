@@ -6,9 +6,10 @@ namespace Hello
     {
         static void Main(string[] args)
         {
-            int age = 23;
-            int number = 8;
-            Console.WriteLine("{0}歳の人は{1}人います", age, number);
+            string name = "山田";
+            Console.WriteLine("{0}さん、こんにちは", name);
+            name = "佐藤";
+            Console.WriteLine("{0}さん、こんにちは", name);
         }
     }
 }
