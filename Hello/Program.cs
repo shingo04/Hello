@@ -6,10 +6,9 @@ namespace Hello
     {
         static void Main(string[] args)
         {
-            int height = 8;
-            int width = 5;
-            int area = height * width;
-            Console.WriteLine("面積: {0}㎡", area);
+            Console.WriteLine("名前を入力してください。");
+            var name = Console.ReadLine();
+            Console.WriteLine("{0}さん、おはようございます。", name);
         }
     }
 }
